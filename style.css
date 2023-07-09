@@ -1,0 +1,47 @@
+/* shared styles */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn {
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+/* header section styles */
+.header {
+    background-image: url('./assets/banner/banner3.png');
+    height: 100vh;
+    text-align: right;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.header-sec {
+    width: 525px;
+    padding: 216px 230px 0px 780px;
+    color: #FFF;
+    
+}
+
+.header-title {
+    font-size: 65px;
+    font-weight: 700;
+    position:sticky;
+}
+
+.header-desc {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 24px 0px 30px 30px;
+}
+
