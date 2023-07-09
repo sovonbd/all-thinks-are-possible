@@ -8,15 +8,6 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-.btn {
-    width: 160px;
-    height: 64px;
-    color: #005FAC;
-    font-size: 20px;
-    font-weight: 600;
-
-}
-
 /* header section styles */
 .header {
     background-image: url('./assets/banner/banner3.png');
@@ -42,6 +33,16 @@ body {
     font-size: 16px;
     font-weight: 400;
     margin: 24px 0px 30px 30px;
+}
+
+.btn {
+    width: 160px;
+    height: 64px;
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
 }
 
 /* previous year styles */
@@ -103,7 +104,7 @@ body {
 /* banner section styles */
 .banner {
     /* background-image:linear-gradient(90deg, #005FAC, rgba(0, 95, 172, 0.00)), url('./assets/watch.png') ; */
-    background-image: url(./assets/gradient1.png),url('./assets/watch.png');
+    background-image: url(./assets/gradient1.png), url('./assets/watch.png');
     background-repeat: no-repeat;
     background-position: center;
     text-align: left;
@@ -111,19 +112,83 @@ body {
     height: 280px;
     margin: 130px 230px;
 }
-.banner-title{
-color: #FFF;
-font-size: 40px;
-width: 459px;
-font-weight: 700;
-padding: 60px 0px 24px 60px;
+
+.banner-title {
+    color: #FFF;
+    font-size: 40px;
+    width: 459px;
+    font-weight: 700;
+    padding: 60px 0px 24px 60px;
 }
 
-.call-btn{
+.call-btn {
     width: 160px;
     height: 64px;
     color: #005FAC;
     font-size: 20px;
     font-weight: 600;
-    margin-left: 60px ;
+    margin-left: 60px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* footer section styles */
+.footer {
+    background-color: black;
+    height: 257px;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding: 130px 230px;
+    color: #FFF;
+}
+
+.footer-sec {
+    margin-right: 350px;
+}
+
+.footer-title {
+    font-size: 45px;
+    font-weight: 700;
+    color: #F8F8F8;
+}
+
+.footer-desc {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+
+.footer-phone {
+    margin: 15px 0px;
+}
+
+.social-icon {
+    padding: 10px 10px 10px 0;
+}
+
+.footer-subscribe {
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.footer-email {
+    margin: 30px 0px 15px 0px;
+    padding: 10px;
+    width: 220px;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background-color: black;
+}
+
+.subscribe-btn{
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    background: #005FAC;
+    border-radius: 5px;
+    border: none;
+    color: #FFF;
 }
