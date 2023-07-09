@@ -28,15 +28,14 @@ body {
 
 .header-sec {
     width: 525px;
-    padding: 216px 230px 0px 780px;
+    padding: 210px 210px 0px 780px;
     color: #FFF;
-    
 }
 
 .header-title {
     font-size: 65px;
     font-weight: 700;
-    position:sticky;
+    position: sticky;
 }
 
 .header-desc {
@@ -45,3 +44,38 @@ body {
     margin: 24px 0px 30px 30px;
 }
 
+/* previous year styles */
+.previous-year {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 80px;
+    margin: 140px 320px 140px 220px;
+}
+
+.previous-year-img {
+    width: 560px;
+    height: 660px;
+}
+
+.previous-year-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.previous-year-desc {
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0px;
+}
+
+.previous-year-info li{
+    list-style: none;
+}
+
+.li-check{
+    margin-right: 10px;
+    color: #16D887;
+}
